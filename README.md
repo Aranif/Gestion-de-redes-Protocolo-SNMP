@@ -40,7 +40,7 @@ Abra una terminal en la raíz del proyecto Java (donde se encuentre el archivo `
 ```bash
 mvn clean compile
 ```
-#### Ejecución con Maven (se tiene que configurar un pom.xml con las dependencias antes):
+#### Ejecución con Maven (se tiene que configurar un pom.xml con las dependencias antes, cualquier IA lo hace en un momento):
 ```bash
 # Opción con Maven
 mvn exec:java -Dexec.mainClass="bot.controlador.Main"
